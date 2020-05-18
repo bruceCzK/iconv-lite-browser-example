@@ -1,14 +1,17 @@
 {
-  "name": "iconv-test",
+  "name": "iconv-browser-example",
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "blob-to-buffer": "^1.2.8",
+    "bootstrap": "^4.5.0",
     "core-js": "^3.6.4",
+    "iconv-lite": "^0.5.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
